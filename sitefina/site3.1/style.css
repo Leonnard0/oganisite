@@ -1,0 +1,250 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+*{
+    margin: 0;    
+    font-family: "Cairo", sans-serif;
+    
+    padding: 0;
+}
+#trcor{
+   width: 70%;
+   margin: auto;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    background-color: #f5f5f5;
+}
+
+
+#trcor svg{
+    width: 20px;
+    
+    
+}
+#svg1 svg{
+    margin-left: 50%;
+}
+
+.icons{
+    
+   height: 15px;
+}
+
+.barra{
+    padding: 20px;
+
+    color: rgb(212, 212, 212);
+}
+#main{
+    border: solid black 1px;
+    height: 1080px;
+    width: 70%;
+    margin: auto;
+    
+}
+.azul{
+    color: blue;
+    border: solid black 1px;
+}
+.container{
+    height: 900px;
+    width: 100%;
+    border: solid black 1px;
+    display: flex;
+}
+
+
+.bordaverde{
+    height: 47px;
+    background-color: #7fad39;
+    display: flex;
+    position: relative;
+    width: 265px;
+    
+    
+}
+.email2{
+    text-decoration: none;
+    color: black;
+}
+.listadrop{
+    text-decoration: none;
+    text-decoration-line: none;
+    list-style-type: none;
+    visibility:hidden;
+    top: 50px;
+    position: absolute;
+    border: 1px black solid;
+    width: 264px;
+    
+}
+#h2{
+    color: #ffff;
+    padding-right: 50%;
+    font-size: 18px;
+     
+}
+.checkboxinv{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    
+}
+
+.checkboxinv:checked~.listadrop{
+    visibility: visible;
+}
+
+.cabecalho{
+    display: grid;
+    grid-template-columns: 7fr 2fr 2fr 2fr 2fr 4fr 0.8fr 0.8fr 2fr;
+    align-items: center;
+    grid-template-rows: 80px;
+    border: #131212 solid 1px;  
+    
+}
+
+.categ{
+    border: solid rgb(54, 53, 53) 1px;
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 4fr 3fr 2fr 1fr 3fr;
+    height: 60px;
+    
+
+}
+.BUTTONCOLOR{
+    color: #f8faf4;
+    background-color: #7fad39;
+    font-size: 14px;
+    width: 109.5px;
+    height: 50px;
+
+}
+
+
+.bars{
+        width: 15%;
+        padding-right: 30px;
+        color: #df5353;
+}
+.categ2{
+    height: 80px;
+    padding: 20px;
+   
+}
+.formatacaoli{
+    padding: 10px;
+    ;
+}
+.placeholder{
+    width: 425.59px;
+    height: 48px;
+}
+.phone{
+    color: #7fad39;
+    height: 50px;
+    margin: 5px;
+    background: #f5f5f5;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    background-size: cover;
+    
+    
+   
+    
+    
+    
+    
+}
+.allcat{
+    height: 60px;
+    width: 120.25;
+    border: #131212 1px solid;
+}
+.telefone{
+    
+    width: 50px;
+    padding: 5px;
+    
+}
+.subtelefone{
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+#h5{
+    text-align: center;
+}
+#imagem{
+    width: 50px;
+    position: relative;
+padding-left: 150px;
+}
+#textos{
+    position: absolute;
+    top: 50px;
+    margin-left: 50px;
+}
+#shopnow{
+    background-color: #7fad39;
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+    font-family: "Cairo", sans-serif;
+}
+#p1{
+    font-size: 14px;
+    font-family: "Cairo", sans-serif;
+}
+#h2low{
+    font-size: 46px;
+    font-family: "Cairo", sans-serif;
+}
+.imagenscarrosel{
+display: grid;
+background-color: tomato;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr;
+
+}
+.itenscarrosel{
+    padding: 5px;
+    text-align: center ;
+}
+.itenscarrosel01{
+    background-image: url(https://preview.colorlib.com/theme/ogani/img/categories/cat-1.jpg);
+    background-size: cover;
+    width: 270px;
+    height:270px;
+   
+}
+.itenscarrosel01 a{
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 225px;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #131212;
+    width: 100px;
+    margin-left: 80px;
+    font-size: 18px;
+    font-family: "Cairo", sans-serif;
+    
+
+}
+.itenscarrosel02 a{
+ margin-top: 200px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Cairo", sans-serif;
+    color: #131212;
+}
